@@ -1,11 +1,13 @@
+// Copyright (C) 2020
+// All rights reserved
 package com.espol.edu;
 
 import java.util.Scanner;
 
+//CHECKSTYLE:OFF
 public class Main {
-    //CHECKSTYLE:OFF
     public static void main(String[] args) {
-    //CHECKSTYLE:ON
+        // CHECKSTYLE:ON
         try (Scanner scanner = new Scanner(System.in)) {
             // Prompt user for input
             System.out.print("Enter destination: ");
@@ -18,14 +20,16 @@ public class Main {
             int duration = scanner.nextInt();
 
             // Create new VacationPackage instance and calculate cost
-            VacationPackage vacationPackage = new VacationPackage(destination, numTravelers, duration);
+            VacationPackage vacationPackage = new VacationPackage(
+                destination, numTravelers, duration);
             int totalCost = vacationPackage.calculateCost();
 
             // Print result to console
             if (totalCost == -1) {
                 System.out.println("Invalid input data.");
             } else {
-                System.out.println("Total cost of vacation package: $" + totalCost);
+                System.out.println(
+                    "Total cost of vacation package: $" + totalCost);
             }
         }
     }
