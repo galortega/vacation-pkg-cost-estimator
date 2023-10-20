@@ -1,5 +1,9 @@
 // Copyright (C) 2020
 // All rights reserved
+/**
+ * @version 1.0
+ * @author Galo Ortega
+ */
 package com.espol.edu;
 
 import java.util.Scanner;
