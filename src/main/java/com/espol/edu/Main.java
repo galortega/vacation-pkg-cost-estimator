@@ -3,7 +3,9 @@ package com.espol.edu;
 import java.util.Scanner;
 
 public class Main {
+    //CHECKSTYLE:OFF
     public static void main(String[] args) {
+    //CHECKSTYLE:ON
         try (Scanner scanner = new Scanner(System.in)) {
             // Prompt user for input
             System.out.print("Enter destination: ");

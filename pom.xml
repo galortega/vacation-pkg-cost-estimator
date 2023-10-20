@@ -12,5 +12,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-
+    <reporting>
+	    <plugins>
+	        <plugin>
+		    <artifactId>maven-checkstyle-plugin</artifactId>
+			<configuration>
+			    <configLocation>galortega_checks.xml</configLocation>
+			</configuration>
+		</plugin>
+	    </plugins>
+	</reporting>
 </project>

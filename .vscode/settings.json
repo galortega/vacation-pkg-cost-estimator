@@ -1,0 +1,5 @@
+{
+  "java.checkstyle.configuration": "${workspaceFolder}/galortega_sun_checks.xml",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.checkstyle.version": "10.12.4"
+}
